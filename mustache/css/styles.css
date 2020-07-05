@@ -1,4 +1,3 @@
-
 body {
   width: 100vw;
   height: 100vh;
@@ -11,9 +10,7 @@ body {
   border-radius: 50%;
   position: absolute;
   color: #000;
-  box-shadow: 
-    150px 240px 0 0 currentColor,
-    300px 240px 0 0 currentColor;
+  box-shadow: 150px 240px 0 0 currentColor, 300px 240px 0 0 currentColor;
 
   cursor: pointer;
 }
@@ -32,16 +29,16 @@ body {
 }
 
 .mustache::after {
-    content: "";
-    position: absolute;
-    left: 390px;
-    top: 120px;
-    width: 210px;
-    height: 120px;
-    border-bottom: solid 180px currentColor;
-    border-radius: 0 0 100% 0;
-    transform: rotate(40deg);
-    transform-origin: left 210px;
+  content: "";
+  position: absolute;
+  left: 390px;
+  top: 120px;
+  width: 210px;
+  height: 120px;
+  border-bottom: solid 180px currentColor;
+  border-radius: 0 0 100% 0;
+  transform: rotate(40deg);
+  transform-origin: left 210px;
 }
 
 .mustache:hover::before {
